@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  background-image: url("");
+  background-size: cover;
+  background-color: #101010;
+  justify-content: center;
+  font-family: "Baskerville", serif;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+IMG.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+h1 {
+  font-size: 150%;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: -5rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: 3rem;
+}
+
+button {
+  align-self: center;
+  background: transparent;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  outline: none;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80%;
+  font-weight: normal;
+}
+
+#help {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80%;
+  font-weight: normal;
+}
